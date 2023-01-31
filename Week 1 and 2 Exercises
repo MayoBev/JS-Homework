@@ -1,0 +1,62 @@
+//Hi Dan, I am not quite able to tackle the week 3 exercises yet as I still need to re-study those and work on my project, 
+//but I thought I would still hand in some of what I could do for week 1 and 2 as you said that it's better to submit at least some of the work. 
+
+
+
+//JS WEEK 2 
+//Arrays Exercise 1: Breakfast 
+const breakfast = [
+    "eggs", 
+    "bacon", 
+    "toast", 
+    "beans",
+]
+
+breakfast.push("tomatoes")
+breakfast.unshift("butter")
+console.log(breakfast.length)
+
+//JS WEEK 1 
+//Number Exercise 1: Age Logger 
+let myAge = 27 
+console.log(myAge)
+
+//Number Exercise 2: So Many Rabbits 
+const numberOfRabbits = 2 
+tooManyRabbits = numberOfRabbits*3
+console.log(tooManyRabbits)
+
+//String Exercise 1: Log Your Counrty 
+const myCountry = "Nigeria"
+console.log(myCountry)
+
+//String Exercise 2: String Length 
+console.log(myCountry.length)
+
+//String Exercise 3: Upper Case 
+const favouriteFood = "okra soup" 
+let result = favouriteFood.toUpperCase();
+console.log(result)
+
+//String Exercise 4: Lower Case
+let result2 = favouriteFood.toLowerCase(); 
+console.log(result2)
+
+//String Exercise 5: Concatenation 
+const myName = "Mayo"
+const myAge2 = 27 
+const newString = (`Hello, my name is ${myName} and I am ${myAge2} years old.`)
+console.log(newString)
+
+//Function Exercise 1 : Simple Function 
+function greeting(){
+    console.log("Hello World")
+}
+greeting()
+
+//Function Exercise 2: Quadrupler 
+function quadrupler(num){
+    return num*4
+}
+console.log(quadrupler(4))
+console.log(quadrupler(5))
